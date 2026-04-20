@@ -1,12 +1,12 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-streamlit==1.32.0
+streamlit==1.56.0
 ultralytics==8.2.0
 
-numpy==1.26.4   # ⭐ VERY IMPORTANT (downgrade)
+numpy==1.26.4
+pillow==10.4.0
 
-pillow
 opencv-python-headless==4.9.0.80
 
-torch==2.0.1
-torchvision==0.15.2
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
